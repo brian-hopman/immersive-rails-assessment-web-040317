@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%=form_tag guests_path do%>
+    name: <%=text_field_tag :name%>
+    occupation: <%=text_field_tag :occupation%>
+    <%=submit_tag%>
+    <%end%>
+  </body>
+</html>
